@@ -4,7 +4,6 @@ public class slotImage : MonoBehaviour
 {
 
     private int speed; // Speed at which the image moves downwards
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
