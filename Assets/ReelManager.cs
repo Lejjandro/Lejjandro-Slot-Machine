@@ -16,5 +16,15 @@ public class ReelManager : MonoBehaviour
         {
             speed = 0; // Stop the reels
         }
+
+        if (reelSpin.main.isSpinning)
+        {
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+        }
+
+        if (transform.position.y <= -0.63f)
+        {
+            transform.position = new Vector3(transform.position.x, 2.38f, 0);
+        }
     }
 }
