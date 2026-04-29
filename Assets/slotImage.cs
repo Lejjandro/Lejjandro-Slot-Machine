@@ -12,7 +12,7 @@ public class slotImage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = transform.parent.GetComponent<ReelManager>().speed; // Get the speed from the ReelManager script
+        /*speed = transform.parent.GetComponent<ReelManager>().speed; // Get the speed from the ReelManager script
         if (reelSpin.main.isSpinning)
         {
             // Move the image downwards at the specified speed
@@ -29,6 +29,6 @@ public class slotImage : MonoBehaviour
             // Increment the spin counter in the reelSpin script
             // Öka snurr räknaren i reelSpin skriptet
             reelSpin.main.spinCounter++;
-        }
+        }*/
     }
 }

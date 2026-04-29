@@ -25,6 +25,7 @@ public class ReelManager : MonoBehaviour
         if (transform.position.y <= -0.63f)
         {
             transform.position = new Vector3(transform.position.x, 2.38f, 0);
+            reelSpin.main.spinCounter++;
         }
     }
 }
